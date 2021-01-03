@@ -1,0 +1,531 @@
+/* start navbar */
+
+
+/* .nav-bar .nav ul li {
+    padding: 25px 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.nav-bar .nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.disabled {
+    color: #B2B2B2;
+}
+
+.nav-bar .icon i {
+    padding: 30px 10px;
+    font-size: 13px;
+}
+
+.nav-bar i {
+    cursor: pointer;
+} */
+
+
+/* end navbar */
+
+
+/* start new navbar */
+
+.navbar .icon i {
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+.navbar i {
+    cursor: pointer;
+}
+
+
+/* end new navbar */
+
+
+/* start noemi */
+
+.noemi {
+    padding: 100px 0;
+}
+
+.noemi h2 {
+    font-size: 60px;
+    letter-spacing: 6px;
+}
+
+.noemi h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #8B6B2F;
+    display: block;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.noemi .top {
+    margin-top: 50px;
+}
+
+.noemi .info-1 {
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    height: 280px;
+    position: relative;
+}
+
+.noemi .info-2 {
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    height: 280px;
+    position: relative;
+}
+
+.noemi .info-3 {
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    height: 280px;
+    position: relative;
+}
+
+.infooo {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 2, 2, 0.3);
+}
+
+.noemi .health {
+    border: 1px solid #F1A113;
+    position: relative;
+    top: 100px;
+    margin: 0px 10px;
+}
+
+.noemi .health .size {
+    font-size: 17px;
+    color: #F1A113;
+    font-weight: bold;
+}
+
+.noemi .health h4 {
+    color: #fff;
+}
+
+.noemi .health p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.noemi .health ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noemi .health ul li {
+    color: #fff;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+
+/* end noemi */
+
+
+/* bola */
+
+.bola {
+    padding: 20px 0;
+}
+
+
+/* bola */
+
+
+/* start new art */
+
+.art {
+    padding-top: 50px;
+}
+
+.share {
+    position: relative;
+    right: 60px;
+    top: -50px;
+}
+
+.art .move {
+    border: 1px solid #8B6B2F;
+    padding: 10px 50px;
+}
+
+.art .move h4 {
+    font-size: 18px;
+}
+
+.art .move p {
+    color: #8B6B2F;
+}
+
+.art .move span {
+    margin-left: 10px;
+    color: black;
+}
+
+.art .move-in {
+    color: #8B6B2F;
+    font-size: 15px;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+}
+
+.art .icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.art .icon .b i {
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+.art .icon .a span {
+    font-weight: bold;
+}
+
+.art .icon .b span {
+    color: #8B6B2F;
+}
+
+.art .share::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: #8B6B2F;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+
+/* end new art */
+
+
+/* start line */
+
+.line {
+    margin: 0 60px;
+}
+
+
+/* 1 */
+
+.about-me {
+    border: 1px solid #8B6B2F;
+    border-radius: 5px;
+    padding: 18px;
+}
+
+.about-me img {
+    width: 60%;
+    border-radius: 100%;
+    border: 1px solid #8B6B2F;
+    position: relative;
+    top: -60px;
+}
+
+.about-me p {
+    color: #8B6B2F;
+}
+
+.about-me i {
+    padding: 10px;
+}
+
+
+/* 2 */
+
+.form p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.form p::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #8B6B2F;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.form button {
+    width: 100%;
+    background-color: #8B6B2F;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+/* 3 */
+
+.line .pic ul li {
+    margin-right: 10px;
+}
+
+.pic p::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #8B6B2F;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+/* 4 */
+
+.beauty {
+    margin-top: 30px;
+}
+
+.beauty span {
+    font-size: 10px;
+    color: #8B6B2F;
+    margin-left: 4px;
+}
+
+.beauty span::after {
+    content: "";
+    background-color: #8B6B2F;
+    height: .5px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.abc::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #8B6B2F;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+/* 5 */
+
+.media {
+    margin: 20px 0;
+}
+
+.media img {
+    width: 33%;
+}
+
+.media span {
+    display: block;
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+}
+
+.media p {
+    font-size: 14px;
+    color: #8B6B2F;
+    margin-left: 10px;
+    position: relative;
+    top: -7px;
+    line-height: 1.7;
+}
+
+
+/* 6 */
+
+.search {
+    margin: 20px 0;
+}
+
+.search i {
+    background-color: #8B6B2F;
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* 7 */
+
+.banner .word {
+    background-image: url(../images/night.jpg);
+    background-size: cover;
+    height: 330px;
+}
+
+.banner .word h2 {
+    color: #fff;
+    position: relative;
+    top: 40%;
+}
+
+.banner p {
+    margin: 30px 0;
+}
+
+.banner p::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #8B6B2F;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+/* 8 */
+
+.fashion {
+    border: 1px solid rgb(201, 197, 197);
+    background-color: #D3D3D3;
+    padding: 10px 0;
+}
+
+.clinic {
+    background-color: #fff;
+    border: 1px solid rgb(201, 197, 197);
+}
+
+.clinic img {
+    width: 24%;
+    border-radius: 50%;
+}
+
+.clinic p {
+    margin-top: 10px;
+}
+
+.fashion .like {
+    padding: 10px 0px;
+}
+
+.fashion .like i {
+    border: 1px solid #B9B9B9;
+    padding: 8px 40px;
+}
+
+.fashion .like span {
+    margin: 0 30px;
+}
+
+.fashion .like::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #8B6B2F;
+    display: block;
+}
+
+.fashion .swr {
+    border: 1px solid #fff;
+    width: 95%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.fashion .swr p {
+    font-size: 12px;
+    color: #0000FF;
+}
+
+.fashion .swr ul li {
+    margin-right: 2px;
+}
+
+
+/* 9 */
+
+.tags {
+    margin: 20px 0;
+}
+
+.tags p::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #8B6B2F;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.tags ul li {
+    margin-right: 5px;
+}
+
+.tags ul li button {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #8B6B2F;
+    height: 60px;
+}
+
+
+/* end line */
+
+
+/* start group */
+
+
+/* .group {
+    padding: 20px 0;
+}
+
+.group img {
+    width: 100%;
+    height: 100%;
+} */
+
+.group ul li {
+    margin-right: 10px;
+}
+
+
+/* end group */
+
+
+/* start footer */
+
+.footer {
+    padding: 20px 0;
+    background-color: #D3D3D3;
+}
+
+.footer .insta i {
+    padding: 0px 20px;
+}
+
+
+/* end footer */
+
+
+/* start copyright */
+
+.copyright .copy p {
+    color: #8B6B2F;
+}
+
+
+/* end copyright */

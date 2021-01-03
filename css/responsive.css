@@ -1,0 +1,127 @@
+/*  small screen mobile (sm) phone*/
+
+@media(max-width:576px) {
+    .noemi {
+        padding: 20px 0;
+    }
+    .infooo {
+        position: relative;
+        margin: 10px 0;
+    }
+    /* .noemi .health {
+        position: absolute;
+        top: 120px;
+        right: 0px;
+        margin: 0px 10px;
+    } */
+    .noemi .health h4 {
+        font-size: 18px;
+    }
+    .share {
+        position: initial;
+        margin: 20px 0;
+    }
+    .line {
+        margin: 30px 0px;
+    }
+    .fashion {
+        padding: 20px 0;
+    }
+    .footer {
+        padding: 5px 0;
+    }
+    .footer .insta i {
+        padding: 0px 10px;
+    }
+    .banner .word {
+        height: 550px;
+    }
+    .fashion .like i {
+        padding: 8px 50px;
+    }
+    .clinic p {
+        margin-top: 20px;
+    }
+    .group ul {
+        flex-wrap: wrap;
+    }
+    .group ul li {
+        margin: 10px 0;
+    }
+}
+
+
+/* medium screen mobile (md) tablet */
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .noemi {
+        padding: 0;
+    }
+    .infooo {
+        position: relative;
+        margin: 10px 0;
+    }
+    .noemi .health h4 {
+        font-size: 28px;
+    }
+    .about-me {
+        margin: 0px 50px;
+    }
+    .media span {
+        display: block;
+        font-size: 17px;
+        color: black;
+        font-weight: normal;
+    }
+    .banner p {
+        font-size: 20px;
+    }
+    .tags {
+        font-size: 20px;
+    }
+    .clinic p {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .banner .word {
+        height: 800px;
+    }
+    .fashion .swr p {
+        font-size: 23px;
+    }
+}
+
+
+/* larg screen mobile (lg) laptop */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* .noemi .health {
+        margin: 0px 79px;
+    } */
+}
+
+
+/* xlarg screen mobile (xl) desktop */
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    .noemi .health h4 {
+        color: #fff;
+        font-size: 15px;
+    }
+    .about-me i {
+        padding: 4px;
+    }
+    .form p {
+        font-size: 14px;
+    }
+    .clinic p {
+        margin-top: 18px;
+        font-size: 10px;
+    }
+    .fashion .like i {
+        padding: 8px 26px;
+    }
+    .fashion .swr p {
+        font-size: 9px;
+    }
+}
